@@ -22,7 +22,7 @@ Glamazon
 
 You can also:
   - Import and save files from GitHub, Dropbox, Google Drive and One Drive
-  - Drag and drop markdown and HTML files into Dillinger
+  - Drag and drop markdown and HTML files into glamazon
   - Export documents as Markdown, HTML and PDF
 
 Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]

@@ -1,0 +1,19 @@
+{
+  "name": "glamazon",
+  "version": "1.0.0",
+  "description": "e-commerce nodejs angular",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chicacode/glamazon.git"
+  },
+  "author": "Geraldine Hernandez Al",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chicacode/glamazon/issues"
+  },
+  "homepage": "https://github.com/chicacode/glamazon#readme"
+}
