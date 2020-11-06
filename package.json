@@ -4,6 +4,7 @@
   "description": "e-commerce nodejs angular",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chicacode/glamazon/issues"
   },
-  "homepage": "https://github.com/chicacode/glamazon#readme"
+  "homepage": "https://github.com/chicacode/glamazon#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
