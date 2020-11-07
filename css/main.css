@@ -3,8 +3,23 @@
     color: #F8FBF8;
 }
 
-.footer {
+.btn{
+    background-color: #78e696;
+    color: #F8FBF8;
+} 
+
+ .footer {
+    position: fixed;
+    bottom: 0;
     padding: 10px 10px 0 10px;
-    background-color: #017923;
-    margin-bottom: 0;
+    background-color: #e2e4e3;
+    color: #131713;
+    margin-top: 10px;
+    width: 100%;
+} 
+a{
+    color: #131713;
+}
+a:hover{
+    color: #3b4540;
 }
