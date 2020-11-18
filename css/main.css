@@ -8,7 +8,7 @@
     color: #F8FBF8;
 } 
 
- .footer {
+.footer {
     position: fixed;
     bottom: 0;
     padding: 10px 10px 0 10px;
@@ -31,4 +31,8 @@ a:hover{
 
 .btn-buy{
     width: 100%;
+}
+
+.oi {
+    margin-right: 10px;
 }
