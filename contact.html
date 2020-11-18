@@ -25,8 +25,8 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link text-uppercase" href="#">catalogo<span class="sr-only">(current)</span></a>
+                <li class="nav-item ">
+                    <a class="nav-link text-uppercase" href="cataloge.html">catalogo</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-uppercase" href="#">moda mujer</a>
@@ -40,9 +40,6 @@
                 <li class="nav-item">
                     <a class="nav-link text-uppercase" href="#">designer</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="contact.html">contacto</a>
-                </li>
 
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -54,103 +51,79 @@
     <div class="jumbotron mt-2">
         <div class="container">
             <h1 class="display-4">Glamazon</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">Dejanos tu comentario</p>
         </div>
     </div>
 
     <div class="container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item" aria-current="page"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Catalogo</li>
-            </ol>
-        </nav>
-        <div class="d-flex flex-wrap flex-row">
-            <div class="card-product d-flex flex-column justify-content-between">
-                <div>
-                    <h2>
-                        Product 1
-                    </h2>
-                    <p>
-                        Lorem ipsum
-                    </p>
+        <form action="">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputName">Nombre</label>
+                    <input type="text" class="form-control" id="inputName">
                 </div>
-                <div>
-                    <button type="button" class="btn btn-light btn-buy">Buy</button>
+                <div class="form-group col-md-6">
+                    <label for="inputLast">Apellido</label>
+                    <input type="text" class="form-control" id="inputLast">
                 </div>
-
             </div>
-            <div class="card-product d-flex flex-column justify-content-between">
-                <div>
-                    <h2>
-                        Product 2
-                    </h2>
-                    <p>
-                        Lorem ipsum
-                    </p>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
                 </div>
-                <div>
-                    <button type="button" class="btn btn-light btn-buy">Buy</button>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Contraseña</label>
+                    <input type="password" class="form-control" id="inputPassword4">
                 </div>
-
             </div>
-            <div class="card-product d-flex flex-column justify-content-between">
-                <div>
-                    <h2>
-                        Product 3
-                    </h2>
-                    <p>
-                        Lorem ipsum
-                    </p>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-light btn-buy">Buy</button>
-                </div>
-
+            <div class="form-group">
+                <label for="inputAddress">Dirección</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="dirección">
             </div>
-            <div class="card-product d-flex flex-column justify-content-between">
-                <div>
-                    <h2>
-                        Product 4
-                    </h2>
-                    <p>
-                        Lorem ipsum
-                    </p>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-light btn-buy">Buy</button>
-                </div>
-
+            <div class="form-group">
+                <label for="inputAddress2">Direccións 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="calle, apartamento">
             </div>
-            <div class="card-product d-flex flex-column justify-content-between">
-                <div>
-                    <h2>
-                        Product 5
-                    </h2>
-                    <p>
-                        Lorem ipsum
-                    </p>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
                 </div>
-                <div>
-                    <button type="button" class="btn btn-light btn-buy">Buy</button>
+                <div class="form-group col-md-4">
+                    <label for="inputState">Comunidad Autónoma</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Escoge una opcion...</option>
+                        <option>Andalucia</option>
+                        <option>Canarias</option>
+                        <option>Cantabria</option>
+                        <option>Catalunya</option>
+                        <option>Madrid</option>
+                        <option>Rioja</option>
+                        <option>Navarra</option>
+                        <option>Pais Vasco</option>
+                    </select>
                 </div>
-
+                <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
             </div>
-            <div class="card-product d-flex flex-column justify-content-between">
-                <div>
-                    <h2>
-                        Product 6
-                    </h2>
-                    <p>
-                        Lorem ipsum
-                    </p>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-light btn-buy">Buy</button>
-                </div>
-
+            <div class="form-group">
+                <label for="coments">Comentario</label>
+                <textarea name="coments" id="coments" class="form-control" cols="30" rows="10"></textarea>
             </div>
-        </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
     </div>
 
     <footer class="footer">

@@ -9,8 +9,8 @@
 } 
 
 .footer {
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
     padding: 10px 10px 0 10px;
     background-color: #e2e4e3;
     color: #131713;
