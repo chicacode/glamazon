@@ -65,91 +65,314 @@
                 <li class="breadcrumb-item active" aria-current="page">Infantil</li>
             </ol>
         </nav>
-        <img src="images/banner.jpg" class="img-fluid" alt="image- responsive">
-        <div class="d-flex flex-wrap flex-row">
-            <div class="card-product d-flex flex-column justify-content-between">
-                <div>
-                    <h2>
-                        Product 1
-                    </h2>
-                    <p>
-                        Lorem ipsum
-                    </p>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="child-tab" data-toggle="tab" href="#child" role="tab"
+                    aria-controls="child" aria-selected="true">Infantil
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="color-tab" data-toggle="tab" href="#color" role="tab" aria-controls="color"
+                    aria-selected="true">Color
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="sive-tab" data-toggle="tab" href="#size" role="tab" aria-controls="size"
+                    aria-selected="true">Size
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="child" role="tabpanel" aria-labelledby="child-tab">
+                <div class="card-group">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div>
+                                <button type="button" class="btn btn-light btn-buy">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div>
+                                <button type="button" class="btn btn-light btn-buy">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This card has even longer content than the first to show that equal height
+                                action.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div>
+                                <button type="button" class="btn btn-light btn-buy">Buy</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <button type="button" class="btn btn-light btn-buy">Buy</button>
+                <div class="card-group">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div>
+                                <button type="button" class="btn btn-light btn-buy">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div>
+                                <button type="button" class="btn btn-light btn-buy">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This card has even longer content than the first to show that equal height
+                                action.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div>
+                                <button type="button" class="btn btn-light btn-buy">Buy</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
-            <div class="card-product d-flex flex-column justify-content-between">
-                <div>
-                    <h2>
-                        Product 2
-                    </h2>
-                    <p>
-                        Lorem ipsum
-                    </p>
+            <div class="tab-pane fade" id="color" role="tabpanel" aria-labelledby="color-tab">
+                <div class="card">
+                    <div class="card-header">
+                        Colors
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="yellow" value="option1">
+                                <label class="form-check-label" for="yellow">Amarillo</label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="animalier" value="option2">
+                                <label class="form-check-label" for="animalier">Animalier</label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="white" value="option3">
+                                <label class="form-check-label" for="white">Blanco</label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="gray" value="option1">
+                                <label class="form-check-label" for="gray">Gris</label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="metalic" value="option2">
+                                <label class="form-check-label" for="metalic">Metalico</label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="neutro" value="option3">
+                                <label class="form-check-label" for="neutro">Neutro</label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="pink" value="option3">
+                                <label class="form-check-label" for="pink">Rosado</label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="silver" value="option3">
+                                <label class="form-check-label" for="silver">Plateado</label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="violet" value="option3">
+                                <label class="form-check-label" for="violet">Violeta</label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="orange" value="option3">
+                                <label class="form-check-label" for="orange">Anaranjado</label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="blue" value="option3">
+                                <label class="form-check-label" for="blue">Azul</label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="brown" value="option3">
+                                <label class="form-check-label" for="brown">Marrón</label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="black" value="option3">
+                                <label class="form-check-label" for="black">Negro</label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="gold" value="option3">
+                                <label class="form-check-label" for="gold">Oro</label>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div>
-                    <button type="button" class="btn btn-light btn-buy">Buy</button>
-                </div>
-
+                <button type="button" class="btn btn-light">Aplicar</button>
             </div>
-            <div class="card-product d-flex flex-column justify-content-between">
-                <div>
-                    <h2>
-                        Product 3
-                    </h2>
-                    <p>
-                        Lorem ipsum
-                    </p>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-light btn-buy">Buy</button>
-                </div>
+            <div class="tab-pane fade" id="size" role="tabpanel" aria-labelledby="size-tab">
 
-            </div>
-            <div class="card-product d-flex flex-column justify-content-between">
-                <div>
-                    <h2>
-                        Product 4
-                    </h2>
-                    <p>
-                        Lorem ipsum
-                    </p>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-light btn-buy">Buy</button>
-                </div>
-
-            </div>
-            <div class="card-product d-flex flex-column justify-content-between">
-                <div>
-                    <h2>
-                        Product 5
-                    </h2>
-                    <p>
-                        Lorem ipsum
-                    </p>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-light btn-buy">Buy</button>
-                </div>
-
-            </div>
-            <div class="card-product d-flex flex-column justify-content-between">
-                <div>
-                    <h2>
-                        Product 6
-                    </h2>
-                    <p>
-                        Lorem ipsum
-                    </p>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-light btn-buy">Buy</button>
-                </div>
-
+                <table class="table table-borderless">
+                    <thead>
+                        <tr>
+                            <th scope="col">One Size</th>
+                            <th scope="col">S</th>
+                            <th scope="col">M</th>
+                            <th scope="col">L</th>
+                            <th scope="col">XL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="4" value="option4">
+                                    <label class="form-check-label" for="4">4</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="15" value="option15">
+                                    <label class="form-check-label" for="15">15</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="27" value="option27">
+                                    <label class="form-check-label" for="27">27</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="36" value="option36">
+                                    <label class="form-check-label" for="36">36</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="42" value="option42">
+                                    <label class="form-check-label" for="42">42</label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="6" value="option6">
+                                    <label class="form-check-label" for="6">6</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="18" value="option18">
+                                    <label class="form-check-label" for="18">18</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="30" value="option30">
+                                    <label class="form-check-label" for="30">30</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="38" value="option38">
+                                    <label class="form-check-label" for="38">38</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="44" value="option44">
+                                    <label class="form-check-label" for="44">44</label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="8" value="option8">
+                                    <label class="form-check-label" for="8">8</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="20" value="option20">
+                                    <label class="form-check-label" for="20">20</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="32" value="option32">
+                                    <label class="form-check-label" for="32">32</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="40" value="option40">
+                                    <label class="form-check-label" for="40">40</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="48" value="option48">
+                                    <label class="form-check-label" for="48">48</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-light">Aplicar</button>
             </div>
         </div>
     </div>
