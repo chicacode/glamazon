@@ -1,11 +1,15 @@
+.glamazon-logo {
+    font-family: 'Oranienbaum', serif;
+}
+
 .jumbotron{
-    background-color: #017923;
-    color: #F8FBF8;
+    background-color: #daddde;
+    color: #282d2e;
 }
 
 .btn{
-    background-color: #78e696;
-    color: #F8FBF8;
+    background-color: #daddde;
+    color: #282d2e;
 } 
 
 .footer {
@@ -21,7 +25,7 @@ a{
     color: #131713;
 }
 a:hover{
-    color: #3b4540;
+    color:  #282d2e;
 }
 .card-product{
     flex: 1 200px;
@@ -33,6 +37,13 @@ a:hover{
     width: 100%;
     border-radius: 0px;
 }
+
+.btn-search{
+    border: 1px solid rgb(166, 166, 166);
+    color: rgb(166, 166, 166);
+    background-color: white;
+}
+
 
 .oi {
     margin-right: 10px;
