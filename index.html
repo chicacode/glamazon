@@ -134,6 +134,8 @@
                     is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text
                 </p>
+                <button type="button" class="btn btn-light btn-buy" data-toggle="popover" data-placement="top"
+                    title="Ofertas" data-content="consulta las promociones vigentes">Reserva</button>
             </div>
             <div class="col-sm-4">
                 <h2>
@@ -143,8 +145,9 @@
                 <p>
                     Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text
-
                 </p>
+                <button type="button" class="btn btn-light btn-buy" data-toggle="popover" data-placement="top"
+                    title="Ofertas" data-content="consulta las promociones vigentes">Reserva</button>
             </div>
             <div class="col-sm-4">
                 <h2>
@@ -155,6 +158,8 @@
                     Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text
                 </p>
+                <button type="button" class="btn btn-light btn-buy" data-toggle="popover" data-placement="top"
+                    title="Ofertas" data-content="consulta las promociones vigentes">Reserva</button>
             </div>
         </div>
         <hr>
@@ -266,7 +271,7 @@
                 </div>
             </div>
             <div class="card card-product d-flex flex-column justify-content-between ml-2">
-                <div class="card-header">
+                <div class="card-header" data-toggle="tooltip" data-placement="top" title="Oferta Nuevo Nokia 325">
                     Nokia 325
                 </div>
                 <div class="card-body">
@@ -287,7 +292,7 @@
                 </div>
             </div>
             <div class="card card-product d-flex flex-column justify-content-between ml-2">
-                <div class="card-header">
+                <div class="card-header" data-toggle="tooltip" data-placement="top" title="Oferta Nuevo IPad Pro">
                     Ipad Pro25
                 </div>
                 <div class="card-body">
@@ -429,10 +434,19 @@
             </div>
         </div>
     </footer>
+
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        // Tooltip query function
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+
 </body>
 
 </html>
