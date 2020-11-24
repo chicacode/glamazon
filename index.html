@@ -200,8 +200,8 @@
                     </p>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-light btn-buy" data-toggle="modal"
-                        data-target="#modalForm"><span class="oi oi-star"></span>Buy</button>
+                    <button type="button" class="btn btn-light btn-buy" data-toggle="modal" data-target="#modalForm"
+                        id="buyIdBtn"><span class="oi oi-star"></span>Buy</button>
                 </div>
             </div>
             <div class="card card-product d-flex flex-column justify-content-between ml-2">
@@ -224,7 +224,6 @@
                     <button type="button" class="btn btn-light btn-buy" data-toggle="modal"
                         data-target="#modalForm"><span class="oi oi-star"></span>Buy</button>
                 </div>
-
             </div>
             <div class="card card-product d-flex flex-column justify-content-between ml-2">
                 <div class="card-header">
@@ -466,6 +465,12 @@
             $('.carousel').carousel({
                 interval: 2000
             });
+            // trigger events with JQuery
+            // .on subscribe a evento
+            $('#modalForm').on('shown.bs.modal', function (e) {
+                console.log('El Modal se esta mostrand hooola');
+            });
+
         });
     </script>
 
