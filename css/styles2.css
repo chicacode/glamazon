@@ -2,17 +2,18 @@
   font-family: 'Oranienbaum', serif;
 }
 .jumbotron {
-  background-color: #daddde;
+  background-color: #ebe527;
   color: #282d2e;
 }
 .btn {
-  background-color: #daddde;
+  background-color: #e93414;
   color: #282d2e;
 }
 .footer {
-  /* position: fixed;
-    bottom: 0; */
-  padding: 10px 10px 0 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 0;
+  padding-left: 10px;
   background-color: #e2e4e3;
   color: #131713;
   margin-top: 10px;

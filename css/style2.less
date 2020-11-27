@@ -1,24 +1,31 @@
 @red: #e93414;
-.margin-top($top){
-    margin-top: $top;
+@yellow: #ebe527;
+@green: #a6ed19;
+.margin-top(@top){
+    margin-top: @top;
 }
-
+.padding(@top, @right, @bottom, @left){
+    padding-top: @top;
+    padding-right: @right;
+    padding-bottom: @bottom;
+    padding-left: @left;
+}
 .glamazon-logo {
     font-family: 'Oranienbaum', serif;
 }
 
 .jumbotron{
-    background-color: #daddde;
+    background-color: @yellow;
     color: #282d2e;
 }
 
 .btn{
-    background-color: #daddde;
+    background-color: @red;
     color: #282d2e;
 } 
 
 .footer {
-    padding: 10px 10px 0 10px;
+    .padding(10px, 10px, 0, 10px);
     background-color: #e2e4e3;
     color: #131713;
     .margin-top(10px);
