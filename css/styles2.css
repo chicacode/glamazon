@@ -1,0 +1,46 @@
+.glamazon-logo {
+  font-family: 'Oranienbaum', serif;
+}
+.jumbotron {
+  background-color: #daddde;
+  color: #282d2e;
+}
+.btn {
+  background-color: #daddde;
+  color: #282d2e;
+}
+.footer {
+  /* position: fixed;
+    bottom: 0; */
+  padding: 10px 10px 0 10px;
+  background-color: #e2e4e3;
+  color: #131713;
+  margin-top: 10px;
+  width: 100%;
+}
+a {
+  color: #131713;
+}
+a:hover {
+  color: #e93414;
+}
+.card-product {
+  flex: 1 200px;
+  padding: 2px 0px 2px 0px;
+  margin-top: 10px;
+}
+.btn-buy {
+  width: 100%;
+  border-radius: 0px;
+}
+.btn-search {
+  border: 1px solid #a6a6a6;
+  color: #a6a6a6;
+  background-color: white;
+}
+.oi {
+  margin-right: 10px;
+}
+.img {
+  height: 15vh;
+}

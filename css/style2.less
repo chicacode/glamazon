@@ -1,3 +1,8 @@
+@red: #e93414;
+.margin-top($top){
+    margin-top: $top;
+}
+
 .glamazon-logo {
     font-family: 'Oranienbaum', serif;
 }
@@ -13,19 +18,17 @@
 } 
 
 .footer {
-    /* position: fixed;
-    bottom: 0; */
     padding: 10px 10px 0 10px;
     background-color: #e2e4e3;
     color: #131713;
-    margin-top: 10px;
+    .margin-top(10px);
     width: 100%;
 } 
 a{
     color: #131713;
 }
 a:hover{
-    color:  #282d2e;
+    color:  @red;
 }
 .card-product{
     flex: 1 200px;
