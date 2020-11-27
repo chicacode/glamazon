@@ -2,11 +2,11 @@
   font-family: 'Oranienbaum', serif; }
 
 .jumbotron {
-  background-color: lightgray;
+  background-color: #daddde;
   color: #282d2e; }
 
 .btn {
-  background-color: lightgray;
+  background-color: #daddde;
   color: #282d2e; }
 
 .footer {
@@ -14,7 +14,7 @@
   padding-right: 10px;
   padding-bottom: 0px;
   padding-left: 10px;
-  background-color: lightgrey;
+  background-color: #e2e4e3;
   color: #131713;
   width: 100%;
   margin-top: 10px; }
@@ -24,6 +24,9 @@ a {
 
 a:hover {
   color: #cd1310; }
+
+h3:hover, h3:focus {
+  color: #07a20c; }
 
 .card-product {
   flex: 1 200px;
