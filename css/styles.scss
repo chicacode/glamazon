@@ -13,6 +13,16 @@ $gray3:  rgb(166, 166, 166);
     padding-bottom: $bottom;
     padding-left: $left;
 }
+
+@mixin groso($width) {
+    border: $width solid #ddd;
+    &:hover{
+        border-color: #ffff00;
+    }
+}
+h1{
+    @include groso(15px);
+}
 .glamazon-logo {
     font-family: 'Oranienbaum', serif;
 }

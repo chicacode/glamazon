@@ -1,16 +1,17 @@
+h1 {border: 15px solid #ddd; }
+h1:hover {
+    border-color: #ffff00; }
+
 .glamazon-logo {
-  font-family: "Oranienbaum", serif;
-}
+  font-family: 'Oranienbaum', serif; }
 
 .jumbotron {
   background-color: #daddde;
-  color: #282d2e;
-}
+  color: #282d2e; }
 
 .btn {
   background-color: #daddde;
-  color: #282d2e;
-}
+  color: #282d2e; }
 
 .footer {
   padding-top: 10px;
@@ -20,20 +21,16 @@
   background-color: #e2e4e3;
   color: #131713;
   width: 100%;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
 a {
-  color: #131713;
-}
+  color: #131713; }
 
 a:hover {
-  color: #cd1310;
-}
+  color: #cd1310; }
 
 h3:hover, h3:focus {
-  color: #07a20c;
-}
+  color: #07a20c; }
 
 .card-product {
   flex: 1 200px;
@@ -41,26 +38,19 @@ h3:hover, h3:focus {
   padding-right: 0px;
   padding-bottom: 2px;
   padding-left: 0px;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
 .btn-buy {
   width: 100%;
-  border-radius: 0px;
-}
+  border-radius: 0px; }
 
 .btn-search {
   border: 1px solid #a6a6a6;
   color: #a6a6a6;
-  background-color: white;
-}
+  background-color: white; }
 
 .oi {
-  margin-right: 10px;
-}
+  margin-right: 10px; }
 
 .img {
-  height: 15vh;
-}
-
-/*# sourceMappingURL=styles.css.map */
+  height: 15vh; }
